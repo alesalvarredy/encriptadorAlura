@@ -1,5 +1,7 @@
 const inputTxt = document.querySelector(".inputText");
 const mensaje = document.querySelector(".inputText2");
+const containerImage = document.querySelector(".container__content-rigth-image");
+const inputTextResult = document.querySelector(".inputText2");
 
 
 function encriptar(stringEncriptar){
@@ -18,6 +20,8 @@ function encriptar(stringEncriptar){
 function btnEncriptar(){
     const textoEncriptado = encriptar(inputTxt.value);
     mensaje.value=textoEncriptado;
+    containerImage.classList.add("active");
+    inputTextResult.classList.add("active");
     inputTxt.value="";
 }
 
@@ -44,4 +48,5 @@ function btnCopiar(){
     let input2 = document.getElementById("salida");
     input2.select();
     document.execCommand("cut")
+    inputTextResult.value="";
 }
