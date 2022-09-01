@@ -16,12 +16,11 @@ body{
 }
 
 header{
-   width: 100%;
-   margin-bottom: 40px;
+   width: 60%;
 }
 
 .header__logo{
-    width: 18rem;
+    width: 16rem;
 }
 
 .container{
@@ -36,7 +35,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .container__content-left{
@@ -45,6 +44,7 @@ header{
     justify-content: center;
     align-items: center;
     width: 70%;
+    margin-top: 40px;
 }
 
 .inputText{
@@ -84,4 +84,29 @@ header{
     border-radius: 10px;
     color: var(--camel);
     cursor: pointer;
+}
+
+.container__content-right{
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border: 2px solid var(--celeste);
+    outline: none;
+    resize: none;
+    box-shadow: 0 0 25px -8px rgba(21, 118, 145, 0.478);
+    background-color: #e0f6fd7b;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    height: 28rem;
+}
+
+.imgDerecha{
+    width: 150px;
+    position: absolute;
 }
