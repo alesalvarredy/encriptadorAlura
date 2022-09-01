@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel = "stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main class="container">
+            <header>
+                <img class="header__logo" src="imagenes/logo.png">
+            </header>
+            <div class="container__content">
+                <section class="container__content-left">
+                    <textarea type="text" class="inputText"  cols=" 40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+                     
+                    <div class="botones">
+                        <button class="btnE btn__style" type="button" onclick="btnEncriptar()">Encriptar</button>
+                        <button class="btnD btn__style" type="button" onclick="btnDesencriptar()">Desencriptar</button>
+                        <button class="btnCp btn__style" type="button" onclick="btnCopiar()">Copiar</button>
+                    </div>
+                </section>
+
+                <section class="container__content-right">
+                    <!-- <img id="imgDerecha" class="imgDerecha" src="imagenes/Ale-avatar-2.png"> -->
+                    <p id="parrafo" class="parrafo">Ningun mensaje fue encontrado</p>
+                    <textarea type="text" class="inputText2" id="salida" cols="18" rows="8" >Ingresa el texto que desee encriptar o desencriptar</textarea>
+                    <p class="parrafo"></p>
+                </section>
+            </div>
+             
+
+            <footer>
+                <!-- <a href="https://www.linkedin.com/in/alejandra-salvarredy-46b9a9ba"><img src="imagenes/linkedine.png" class="linkedin"></a> -->
+                </footer>
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+   
+
+
+</html>
