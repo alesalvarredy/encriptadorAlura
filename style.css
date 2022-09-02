@@ -93,6 +93,10 @@ header {
     cursor: pointer;
 }
 
+.btn__style:hover{
+    transform: scale(1.1);
+}
+
 .container__content-right {
     padding: 20px;
     display: flex;
