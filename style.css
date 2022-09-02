@@ -25,8 +25,8 @@ header{
 
 .container{
     background-color: var(--camel);
-    width: 80%;
-    height: 35rem;
+    width: 85%;
+    height: 70%;
     border-radius: 20px;
     padding: 40px;
 }
@@ -34,7 +34,7 @@ header{
 .container__content{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
@@ -43,14 +43,14 @@ header{
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 60%;
     margin-top: 40px;
 }
 
 .inputText{
     padding: 20px;
     width: 80%;
-    height: 20rem;
+    height: 24rem;
     border: 2px solid var(--celeste);
     outline: none;
     resize: none;
@@ -92,7 +92,7 @@ header{
     flex-direction:column;
     justify-content: flex-start;
     align-items: center;
-    width: 30%;
+    width: 25%;
     border: 2px solid var(--celeste);
     outline: none;
     resize: none;
@@ -103,7 +103,7 @@ header{
     font-size: 20px;
     text-align: center;
     position: relative;
-    height: 28rem;
+    height: 34rem;
 }
 
 .container__content-rigth-image{
@@ -140,7 +140,7 @@ header{
 }
 
 .inputText2.active:focus-visible{
-    display: none;
+    opacity: 0;
 }
 
 .parrafo{
