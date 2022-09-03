@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Encriptador de Texto</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel = "stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <main class="container">
-            <header>
-                <img class="header__logo" src="imagenes/logo.png">
-            </header>
-            <div class="container__content">
-                <section class="container__content-left">
-                    <textarea type="text" class="inputText"  cols=" 40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
-                     
-                    <div class="botones">
-                        <button class="btnE btn__style" type="button" onclick="btnEncriptar()">Encriptar</button>
-                        <button class="btnD btn__style" type="button" onclick="btnDesencriptar()">Desencriptar</button>
-                        <button class="btnCp btn__style" type="button" onclick="btnCopiar()">Copiar</button>
-                    </div>
-                </section>
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-                <section class="container__content-right">
-                    <div class="container__content-rigth-image">
-                        <img id="imgDerecha" class="imgDerecha" src="imagenes/imagen.png">
-                        <p id="parrafo" class="parrafo parrafoUno">Ningun mensaje fue encontrado</p>
-                        <p class="parrafo">Ingresa el texto que desee encriptar o desencriptar</p>
-                    </div>
+    <script src="https://kit.fontawesome.com/a8ad4fc3d8.js" crossorigin="anonymous"></script>
 
-                    <textarea type="text" class="inputText2" id="salida" cols="18" rows="8" ></textarea>
-                </section>
-            </div>
-             
+</head>
 
-            <footer>
-                <!-- <a href="https://www.linkedin.com/in/alejandra-salvarredy-46b9a9ba"><img src="imagenes/linkedine.png" class="linkedin"></a> -->
-                </footer>
-        </main>
-        <script src="script.js"></script>
-    </body>
+<body>
+    <main class="container">
+        <header>
+            <img class="header__logo" src="imagenes/logo.png">
+        </header>
+        <div class="container__content">
+            <section class="container__content-left">
+                <textarea type="text" class="inputText" cols=" 40" rows="6"
+                    placeholder="Ingrese el texto aquí"></textarea>
 
-   
+                <div class="botones">
+                    <button class="btnE btn__style" type="button" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btnD btn__style" type="button" onclick="btnDesencriptar()">Desencriptar</button>
+                    <button class="btnCp btn__style" type="button" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </section>
+
+            <section class="container__content-right">
+                <div class="container__content-rigth-image">
+                    <img id="imgDerecha" class="imgDerecha" src="imagenes/imagen.png">
+                    <p id="parrafo" class="parrafo parrafoUno">Ningun mensaje fue encontrado</p>
+                    <p class="parrafo">Ingresa el texto que desee encriptar o desencriptar</p>
+                </div>
+
+                <textarea type="text" class="inputText2" id="salida" cols="18" rows="8"></textarea>
+            </section>
+        </div>
+
+        <footer>
+            <p>Desarrollado por Alejandra Salvarredy</p>
+            <a href="https://www.linkedin.com/in/alejandrasalvarredy/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/alesalvarredy"><i class="fa-brands fa-square-github"></i></a>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+
 
 
 </html>

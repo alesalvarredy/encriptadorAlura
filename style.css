@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background-color: #D9AFD9;
-    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); 
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -31,9 +31,10 @@ header {
     background-color: #fffafb63;
     box-shadow: 0 0 25px -8px rgba(21, 118, 145, 0.478);
     width: 75%;
-    height: 65%;
+    height: 70%;
     border-radius: 20px;
     padding: 40px;
+    position: relative;
 }
 
 .container__content {
@@ -91,9 +92,10 @@ header {
     border-radius: 10px;
     color: var(--camel);
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-.btn__style:hover{
+.btn__style:hover {
     transform: scale(1.1);
 }
 
@@ -162,4 +164,35 @@ header {
 .parrafoUno {
     font-weight: 400;
     margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 54px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 178, 202, 0.721);
+    border-radius: 0 0 17px 17px;
+}
+
+footer p,
+.fa-brands {
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--camel);
+    margin: 0 10px;
+}
+
+.fa-brands {
+    font-size: 32px;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-brands:hover {
+    transform: scale(1.1);
+    color: #e1c5e1;
 }

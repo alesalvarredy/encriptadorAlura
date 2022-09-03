@@ -50,3 +50,5 @@ function btnCopiar(){
     document.execCommand("cut")
     inputTextResult.value="";
 }
+
+inputTxt.focus();
