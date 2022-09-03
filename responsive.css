@@ -1,0 +1,70 @@
+@media screen and (max-width: 1000px) {
+    header {
+        width: 100%;
+    }
+    
+    .header__logo {
+        width: 15rem;
+    }
+
+    .container {
+        height: 85%;
+        width: 85%;
+    }
+
+
+    .container__content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .container__content-left {
+        width: 90%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .inputText {
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .botones {
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+
+    .btn__style {
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    .container__content-right {
+        padding: 10px;
+        width: 81%;
+        height: 70%;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .inputText2 {
+        margin: 0;
+    }
+
+
+    .imgDerecha {
+        display: none;
+    }
+
+    
+
+
+
+
+
+}

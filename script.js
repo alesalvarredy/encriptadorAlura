@@ -23,6 +23,7 @@ function btnEncriptar(){
     containerImage.classList.add("active");
     inputTextResult.classList.add("active");
     inputTxt.value="";
+    inputTxt.focus();
 }
 
 
@@ -42,6 +43,7 @@ function btnDesencriptar(){
     const textoDesencriptado = desencriptar(inputTxt.value);
     mensaje.value=textoDesencriptado;
     inputTxt.value="";
+    inputTxt.focus();
 }
 
 function btnCopiar(){
@@ -49,6 +51,7 @@ function btnCopiar(){
     input2.select();
     document.execCommand("cut")
     inputTextResult.value="";
+    inputTxt.focus();
 }
 
 inputTxt.focus();
