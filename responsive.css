@@ -2,7 +2,7 @@
     header {
         width: 100%;
     }
-    
+
     .header__logo {
         width: 15rem;
     }
@@ -43,7 +43,7 @@
         padding: 12px;
         font-size: 14px;
     }
-    
+
     .container__content-right {
         padding: 10px;
         width: 81%;
@@ -61,10 +61,66 @@
         display: none;
     }
 
-    
+}
 
 
+@media screen and (max-width: 768px) {
 
+    header{
+        margin-left: 16px;
+    }
 
+    .header__logo {
+        width: 13rem;
+    }
 
+    .container {
+        height: 90%;
+    }
+
+    .container__content{
+        height: 75%;
+    }
+
+    .inputText{
+        height: 45%;
+    }
+
+    .inputText, .inputText2{
+        font-size: 24px;
+    }
+
+    .botones{
+        flex-direction: column;
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    .btn__style{
+        width: 90%;
+        margin: 8px 0;
+        font-size: 16px;
+    }
+
+    .container__content-right{
+        height: 50%;
+        max-height: 30%;
+    }
+
+    .parrafo{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+
+    footer p, .fa-brands {
+        margin: 0 6px;
+    }
+
+    .fa-brands{
+        font-size: 25px;
+    }
 }
