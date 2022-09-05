@@ -1,146 +1,143 @@
 @media screen and (max-width: 1000px) {
-    header {
-        width: 100%;
-    }
+  header {
+    width: 100%;
+  }
 
-    .header__logo {
-        width: 15rem;
-    }
+  .header__logo {
+    width: 15rem;
+  }
 
-    .container {
-        height: 85%;
-        width: 85%;
-    }
+  .container {
+    height: 85%;
+    width: 85%;
+  }
 
+  .container__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
 
-    .container__content {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-    }
+  .container__content-left {
+    width: 90%;
+    height: 100%;
+    margin-top: 20px;
+  }
 
-    .container__content-left {
-        width: 90%;
-        height: 100%;
-        margin-top: 20px;
-    }
+  .inputText {
+    width: 90%;
+    height: 80%;
+    padding: 10px;
+    font-size: 20px;
+  }
 
-    .inputText {
-        width: 90%;
-        height: 80%;
-        padding: 10px;
-        font-size: 20px;
-    }
+  .botones {
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
 
-    .botones {
-        margin-top: 26px;
-        margin-bottom: 26px;
-    }
+  .btn__style {
+    padding: 12px;
+    font-size: 14px;
+  }
 
-    .btn__style {
-        padding: 12px;
-        font-size: 14px;
-    }
+  .btn__style:hover {
+    transform: scale(1);
+  }
 
-    .btn__style:hover {
-        transform: scale(1);
-    }
+  .container__content-right {
+    padding: 10px;
+    width: 81%;
+    height: 70%;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 
-    .container__content-right {
-        padding: 10px;
-        width: 81%;
-        height: 70%;
-        justify-content: center;
-        margin-bottom: 30px;
-    }
+  .inputText2 {
+    margin: 0;
+  }
 
-    .inputText2 {
-        margin: 0;
-    }
-
-
-    .imgDerecha {
-        display: none;
-    }
-
+  .imgDerecha {
+    display: none;
+  }
 }
 
-
 @media screen and (max-width: 768px) {
+  header {
+    margin-left: 16px;
+  }
 
-    header{
-        margin-left: 16px;
-    }
+  .header__logo {
+    width: 13rem;
+  }
 
-    .header__logo {
-        width: 13rem;
-    }
+  .container {
+    height: 90%;
+  }
 
-    .container {
-        height: 90%;
-    }
+  .container__content {
+    height: 75%;
+  }
 
-    .container__content{
-        height: 75%;
-    }
+  .inputText {
+    height: 45%;
+  }
 
-    .inputText{
-        height: 45%;
-    }
+  .inputText,
+  .inputText2 {
+    font-size: 24px;
+  }
 
-    .inputText, .inputText2{
-        font-size: 24px;
-    }
+  .botones {
+    flex-direction: column;
+    width: 100%;
+    margin: 16px 0;
+  }
 
-    .botones{
-        flex-direction: column;
-        width: 100%;
-        margin: 16px 0;
-    }
+  .btn__style {
+    width: 90%;
+    margin: 8px 0;
+    font-size: 16px;
+  }
 
-    .btn__style{
-        width: 90%;
-        margin: 8px 0;
-        font-size: 16px;
-    }
+  .container__content-right {
+    height: 50%;
+    max-height: 30%;
+  }
 
-    .container__content-right{
-        height: 50%;
-        max-height: 30%;
-    }
+  .parrafo {
+    font-size: 18px;
+    line-height: 1.5;
+  }
 
-    .parrafo{
-        font-size: 18px;
-        line-height: 1.5;
-    }
+  footer p {
+    font-size: 14px;
+  }
 
-    footer p{
-        font-size: 14px;
-    }
+  footer p,
+  .fa-brands {
+    margin: 0 6px;
+  }
 
-    footer p, .fa-brands {
-        margin: 0 6px;
-    }
+  .fa-brands {
+    font-size: 25px;
+  }
 
-    .fa-brands{
-        font-size: 25px;
-    }
+  .container__alerts {
+    width: 22rem;
+    height: 10rem;
+    margin: 0 20px;
+  }
 
-    .container__alerts{
-        width: 22rem;
-        height: 10rem;
-        margin: 0 20px;
-    }
+  .icon__alert {
+    width: 3.2rem;
+    margin-bottom: 20px;
+  }
 
-    .icon__alert{
-        width: 3.2rem;
-        margin-bottom: 20px;
-    }
-
-    .text__alert{
-        line-height: 1.1;
-        font-size: 20px;
-    }
+  .text__alert {
+    line-height: 1.1;
+    font-size: 20px;
+  }
 }
