@@ -123,4 +123,20 @@
     .fa-brands{
         font-size: 25px;
     }
+
+    .container__alerts{
+        width: 22rem;
+        height: 10rem;
+        margin: 0 20px;
+    }
+
+    .icon__alert{
+        width: 3.2rem;
+        margin-bottom: 20px;
+    }
+
+    .text__alert{
+        line-height: 1.1;
+        font-size: 20px;
+    }
 }
